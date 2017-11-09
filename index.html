@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Game UI Tabs</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<link rel="icon" href="img/favicon.png"/>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/media.css" />
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<section class="gt-wrap">
+		<div class="gt-card">
+			<div class="tabs">
+				<div class="gt-card__header">
+					<ul class="gt-row tabs__label">
+						<li class="gt-width-1-3 gt-card__header-item active">
+							<a href="#">
+								<svg xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink"
+									width="22px" height="22px" viewBox="0 0 22 22">
+								<path fillRule="evenodd" d="M 19.4 18C 19.4 18 15.78 18 15.78 18 15.78 18 11.99 21.79 11.99 21.79 11.99 21.79 11.99 21.79 11.99 21.79 11.74 22.04 11.39 22.2 11 22.2 10.61 22.2 10.26 22.04 10.01 21.79 10.01 21.79 10.01 21.79 10.01 21.79 10.01 21.79 6.22 18 6.22 18 6.22 18 2.6 18 2.6 18 1.05 18-0.2 16.75-0.2 15.2-0.2 15.2-0.2 2.6-0.2 2.6-0.2 1.05 1.05-0.2 2.6-0.2 2.6-0.2 19.4-0.2 19.4-0.2 20.95-0.2 22.2 1.05 22.2 2.6 22.2 2.6 22.2 15.2 22.2 15.2 22.2 16.75 20.95 18 19.4 18ZM 19.4 4C 19.4 3.23 18.77 2.6 18 2.6 18 2.6 4 2.6 4 2.6 3.23 2.6 2.6 3.23 2.6 4 2.6 4 2.6 13.8 2.6 13.8 2.6 14.57 3.23 15.2 4 15.2 4 15.2 5.4 15.2 5.4 15.2 5.4 15.2 6.8 15.2 6.8 15.2 7.19 15.2 7.54 15.36 7.79 15.61 7.79 15.61 7.79 15.61 7.79 15.61 7.79 15.61 11 18.82 11 18.82 11 18.82 14.21 15.61 14.21 15.61 14.21 15.61 14.21 15.61 14.21 15.61 14.46 15.36 14.81 15.2 15.2 15.2 15.2 15.2 16.6 15.2 16.6 15.2 16.6 15.2 18 15.2 18 15.2 18.77 15.2 19.4 14.57 19.4 13.8 19.4 13.8 19.4 4 19.4 4ZM 15.2 12.4C 15.2 12.4 6.8 12.4 6.8 12.4 6.03 12.4 5.4 11.77 5.4 11 5.4 10.23 6.03 9.6 6.8 9.6 6.8 9.6 15.2 9.6 15.2 9.6 15.97 9.6 16.6 10.23 16.6 11 16.6 11.77 15.97 12.4 15.2 12.4ZM 15.2 8.2C 15.2 8.2 6.8 8.2 6.8 8.2 6.03 8.2 5.4 7.57 5.4 6.8 5.4 6.03 6.03 5.4 6.8 5.4 6.8 5.4 15.2 5.4 15.2 5.4 15.97 5.4 16.6 6.03 16.6 6.8 16.6 7.57 15.97 8.2 15.2 8.2Z"/></svg>
+								<p>INFORMATION</p>
+							</a>
+						</li>
+						<li class="gt-width-1-3 gt-card__header-item">
+							<a href="#">
+								<svg xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink"
+									width="19px" height="21px" viewBox="0 0 19 21">
+								<path fillRule="evenodd" d="M 18.99 11.31C 18.99 13.99 16.87 16.16 14.25 16.16 12.69 16.16 11.33 15.38 10.47 14.2 10.47 14.2 10.45 14.22 10.45 14.22 10.45 14.22 9.5 12.92 9.5 12.92 9.5 12.92 8.55 14.22 8.55 14.22 8.55 14.22 8.54 14.21 8.54 14.21 7.67 15.38 6.31 16.16 4.75 16.16 2.13 16.16 0.01 13.99 0.01 11.31 0.01 10.22 0.37 9.22 0.97 8.41 0.97 8.41 0.96 8.4 0.96 8.4 0.96 8.4 7.92-0.01 9.5-0.01 11.08-0.01 18.04 8.4 18.04 8.4 18.04 8.4 18.03 8.41 18.03 8.41 18.63 9.22 18.99 10.22 18.99 11.31ZM 7.92 17.77C 7.92 17.77 7.92 16.16 7.92 16.16 7.92 15.26 8.63 14.54 9.5 14.54 10.37 14.54 11.08 15.26 11.08 16.16 11.08 16.16 11.08 17.77 11.08 17.77 11.96 17.77 12.66 18.5 12.66 19.39 12.66 20.28 11.96 21.01 11.08 21.01 11.08 21.01 7.92 21.01 7.92 21.01 7.04 21.01 6.34 20.28 6.34 19.39 6.34 18.5 7.04 17.77 7.92 17.77Z"/></svg>
+								<p>RATINGS INFO</p>
+							</a>
+						</li>
+						<li class="gt-width-1-3 gt-card__header-item">
+							<a href="#">
+								<?xml version="1.0" encoding="utf-8"?>
+								<svg xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink"
+									width="20px" height="20px" viewBox="0 0 20 20">
+								<path fillRule="evenodd" d="M 19.95 7.77C 19.95 7.77 19.97 7.77 19.97 7.77 19.97 7.77 17.47 19.02 17.47 19.02 17.47 19.02 17.45 19.01 17.45 19.01 17.32 19.57 16.85 20 16.25 20 16.25 20 3.75 20 3.75 20 3.15 20 2.68 19.57 2.55 19.01 2.55 19.01 2.53 19.02 2.53 19.02 2.53 19.02 0.03 7.77 0.03 7.77 0.03 7.77 0.05 7.77 0.05 7.77 0.03 7.68-0 7.59-0 7.5-0 6.81 0.56 6.25 1.25 6.25 1.25 6.25 3.75 6.25 3.75 6.25 3.75 2.8 6.55-0 10-0 13.45-0 16.25 2.8 16.25 6.25 16.25 6.25 18.75 6.25 18.75 6.25 19.44 6.25 20 6.81 20 7.5 20 7.59 19.97 7.68 19.95 7.77ZM 10 2.5C 7.93 2.5 6.25 4.18 6.25 6.25 6.25 6.25 13.75 6.25 13.75 6.25 13.75 4.18 12.07 2.5 10 2.5ZM 15 11.25C 14.31 11.25 13.75 10.69 13.75 10 13.75 10 13.75 8.75 13.75 8.75 13.75 8.75 6.25 8.75 6.25 8.75 6.25 8.75 6.25 10 6.25 10 6.25 10.69 5.69 11.25 5 11.25 4.31 11.25 3.75 10.69 3.75 10 3.75 10 3.75 8.75 3.75 8.75 3.75 8.75 2.81 8.75 2.81 8.75 2.81 8.75 4.75 17.5 4.75 17.5 4.75 17.5 15.25 17.5 15.25 17.5 15.25 17.5 17.19 8.75 17.19 8.75 17.19 8.75 16.25 8.75 16.25 8.75 16.25 8.75 16.25 10 16.25 10 16.25 10.69 15.69 11.25 15 11.25Z"/></svg>
+								<p>WHERE TO BUY</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="gt-card__container tabs__content active">
+					<div class="gt-row">
+					<div class="gt-width-2-5">
+					<img class="gt-card__container-img" src="img/poster.png">
+					<ul class="gt-rating">
+						<li><img src="img/star-gold.png" alt="star"></li>
+						<li><img src="img/star-gold.png" alt="star"></li>
+						<li><img src="img/star-gold.png" alt="star"></li>
+						<li><img src="img/star-gold.png" alt="star"></li>
+						<li><img src="img/star-empty.png" alt="star"></li>
+					</ul>
+					</div>
+					<div class="gt-width-3-5">
+						<h3>FarCry 4</h3>
+						<p class="gt-release">
+							First Released Nov 17, 2014
+						</p>
+						<p class="gt-description">
+						In Far Cry 4, players find themselves in Kyrat, a breathtaking, perilous and wild region of the Hima
+						layas struggling under the regime of a despotic self-appointed king.
+						</p>
+						<div class="gt-progress-bar">
+							<p>7.8</p>
+						</div>
+						<div class="gt-prise">
+							<div class="gt-prise__discount">
+								20% OFF!
+							</div>
+							<p class="gt-prise__game">
+								59.96
+							</p>
+						</div>
+						<form>
+							<button>BUY IT NOW</button>
+						</form>
+					</div>
+				</div>
+				</div>
+				<div class="gt-card__container tabs__content gt-card__container--raiting">
+					<p>Raiting Info</p>
+					<div class="border__raiting">7.8</div>
+				</div>
+				<div class="gt-card__container tabs__content gt-card__container--buy">
+					<p>59.96 $</p>
+					<a href="#">Buy here</a>
+				</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+</html>

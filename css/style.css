@@ -1,0 +1,276 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/lato-bold-webfont.woff2') format('woff2'),
+         url('../fonts/lato-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+/*STYLES*/
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400; 
+  }
+
+.gt-wrap {
+    position: relative;
+    margin: 0 auto;
+    max-width: 2000px;
+    min-height: 100vh;
+    background: #212534 url(../img/bg.jpg) center no-repeat;
+    padding-top: 70px; 
+  }
+
+.gt-card {
+    background-color: #212534;
+    box-shadow: 0px 23px 57px 0px rgba(0, 0, 0, 0.4);
+    max-width: 600px;
+    min-height: 541px;
+    margin: 0 auto; 
+  }
+
+.gt-card__header {
+    min-height: 115px;
+    background-color: #2b3040; 
+  }
+
+.tabs__label {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    padding: 0 40px; 
+  }
+
+.tabs__label p:hover {
+  text-decoration: underline;
+  color: #fedd3f;
+  transition: 1.2s;
+  font-weight: 800;
+}
+
+.gt-card__header-item {
+    text-align: center;
+    padding-left: 0; 
+  }
+
+.gt-card__header-item a {
+    max-width: 200px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 16px;
+    color: #b7bacd;
+    fill: #b7bacd;
+    padding: 33px 0;
+    border-bottom: 2px solid #2b3040; 
+  }
+
+.gt-card__header-item a p {
+    margin: 0;
+    padding-top: 13px; 
+  }
+
+.active a {
+    fill: #fff;
+    color: #FFF;
+    border-bottom: 2px solid #fff; 
+  }
+
+.gt-card__container {
+    max-width: 513px;
+    min-height: 309px;
+    margin: 43px auto;
+    position: relative; 
+  }
+
+.gt-rating {
+    list-style: none;
+    padding-left: 10px; 
+  }
+
+.gt-rating li {
+    display: inline-block;
+    padding-right: 9px; 
+  }
+
+.gt-rating li:hover {
+    cursor: pointer; 
+  }
+
+.gt-card__container h3 {
+    font-family: Lato;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 10px 0; 
+  }
+
+.gt-card__container-img:hover {
+    transform: scale(1.02);
+    cursor: pointer; 
+    transition: 2s;
+}
+
+.tabs__title:hover {
+  color: #13e28d;
+  transition: 1.2s;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.gt-release {
+    font-family: Lato;
+    color: #fdfdfd;
+    font-size: 14px;
+    font-weight: 400; 
+  }
+
+.gt-description {
+    font-family: Lato;
+    color: #b7bacd;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    padding-top: 32px; 
+  }
+
+.gt-progress-bar {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    border-radius: 50%;
+    border: 1px solid #aaadbc; 
+    border-right: 5px solid #13e28d; 
+    border-bottom: 5px solid #13e28d; 
+  }
+
+.gt-progress-bar p {
+    font-family: Lato;
+    color: #aaadbc;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    padding: 15px; 
+  }
+
+.gt-prise {
+    display: inline-block;
+    padding-top: 50px; 
+  }
+
+.gt-prise__discount {
+    font-family: Lato;
+    color: #fedd3f;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 5px; 
+  }
+
+.gt-prise__game {
+    font-family: Lato;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0; 
+  }
+
+.gt-prise__game:before {
+    content: "$"; 
+  }
+
+.gt-card__container form {
+    display: inline-block; 
+  }
+
+button {
+    font-family: Lato;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 2px;
+    background-color: #13e28d;
+    outline: none;
+    border: none;
+    padding: 15px 20px;
+    margin-left: 48px;
+    vertical-align: bottom;
+    cursor: pointer; 
+  }
+
+button:hover {
+    background-color: #00e0bd;
+    color: #13e28d; 
+    background-color: #4b536b;
+    border: 1.5px solid #13e28d;
+    transition: 1.2s;
+  }
+
+.gt-card__container--raiting p {
+    text-align: center;
+    font-family: Lato;
+    color: #fedd3f;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 80px auto 0; 
+  }
+
+  .border__raiting {
+    font-size: 72px;
+    text-align: center;
+    font-family: Lato;
+    color: #fedd3f;
+    margin: 10% auto;
+    border-radius: 50%;
+    border: 5px solid #fedd3f;
+    padding: 23px;
+    width: 150px;
+    height: 150px;
+  }
+
+.gt-card__container--buy {
+    text-align: center; 
+  }
+
+.gt-card__container--buy p {
+    padding-top: 50px;
+    text-align: center;
+    font-family: Lato;
+    color: #fedd3f;
+    font-size: 72px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 50px; 
+  }
+
+.gt-card__container--buy a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 60px;
+    border: 3px solid #fedd3f;
+    border-radius: 5px;
+    padding: 0 10px;
+    color: #fedd3f;
+  }
+
+.gt-card__container--buy a:hover {
+    background-color: #2b3040;
+    opacity: .8; 
+    transition: 1.2s;
+    border: 4px solid #fedd3f;
+    font-weight: 900;
+  }
+
+.tabs__content {
+    display: none; 
+  }
+
+.tabs__content.active {
+    display: block; 
+  }
